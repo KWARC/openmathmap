@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/osm/leaflet/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="myCSS.css" />
+    <script type="text/javascript" src="../jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="leaflet/leafletembed.js"></script>
+<!--    <script type="text/javascript" src="/osm/search.js"></script>-->
+    <title> MathMap </title>
+  </head>
+<body onload="initmap();">
+    <div id="header">
+        <h1> <a href="index.html"> MathMap <a></h1>
+        <div class="menu"> Accessing Math via Interactive Maps </div>
+        <div class="menu"> <a href="about.html">About </a></div>
+        <div class="search"> search: <input type = "text" id="mscSearch" name="search"></div>
+      </div>
+    <div id="container">
+      
+      <div id="left" class="column">
+        <p>The MathMap is a project being presently worked on at Jacobs University. </p>
+        <p>This project wants to develop
+        and deploy novel interfaces that empower interested parties to find their way. We have developed a prototype map generation service based
+on MSC classifications and deployed the maps resulting from ZBMath
+data in OpenStreetMap.</p>
+      </div>
+      <div id="center" class="column">
+        <div id="map">
+        </div>
+      </div>
+      <div id="right" class="column">
+        <div>
+          <div class="browser"> 
+           <div class="link"> Browse classes: </div>
+          </div>
+          <table class="classes">
+          </table>
+        </div>
+      </div>
+
+    </div>
+    <div id="footer">
+    </div>
+  </body>
+</html>
+

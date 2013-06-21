@@ -1,0 +1,147 @@
+10
+
+dir
+0
+https://svn.kwarc.info/repos/supervision/gr/2013/doerrie_jan_wilken/project/github/openmathmap/MapData/ZBMath/Server/osm
+https://svn.kwarc.info/repos/supervision
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+71dcaf0e-ca45-4353-9e8b-fbddb1840f3c
+
+tiles_2007
+dir
+
+
+
+add
+
+tiles_bak
+dir
+
+
+
+add
+
+tiles_1992
+dir
+
+
+
+add
+
+tiles_1986
+dir
+
+
+
+add
+
+tiles_1995
+dir
+
+
+
+add
+
+index.html
+file
+
+
+
+add
+
+tiles_1989
+dir
+
+
+
+add
+
+tiles_1998
+dir
+
+
+
+add
+
+leaflet
+dir
+
+
+
+add
+
+tiles_no_water
+dir
+
+
+
+add
+
+tiles.zip
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+tiles_2001
+dir
+
+
+
+add
+
+tiles_water
+dir
+
+
+
+add
+
+tiles_2010
+dir
+
+
+
+add
+
+myCSS.css
+file
+
+
+
+add
+
+tiles_2004
+dir
+
+
+
+add
+

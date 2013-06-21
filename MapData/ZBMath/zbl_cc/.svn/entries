@@ -1,0 +1,679 @@
+10
+
+dir
+0
+https://svn.kwarc.info/repos/supervision/gr/2013/doerrie_jan_wilken/project/github/openmathmap/MapData/ZBMath/zbl_cc
+https://svn.kwarc.info/repos/supervision
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+71dcaf0e-ca45-4353-9e8b-fbddb1840f3c
+
+MSCGrid0.csv
+file
+
+
+
+add
+
+MSCGrid1.csv
+file
+
+
+
+add
+
+zbl_ccMapFilledNoWater.osm
+file
+
+
+
+add
+
+intersectionsTLC.txt
+file
+
+
+
+add
+
+MSC03-XX
+dir
+
+
+
+add
+
+MSC13-XX
+dir
+
+
+
+add
+
+MSC33-XX
+dir
+
+
+
+add
+
+MSC43-XX
+dir
+
+
+
+add
+
+PlotData.txt
+file
+
+
+
+add
+
+MSC17-XX
+dir
+
+
+
+add
+
+MSC53-XX
+dir
+
+
+
+add
+
+MSC37-XX
+dir
+
+
+
+add
+
+MSC83-XX
+dir
+
+
+
+add
+
+MSC47-XX
+dir
+
+
+
+add
+
+MSC57-XX
+dir
+
+
+
+add
+
+MSC93-XX
+dir
+
+
+
+add
+
+MSC97-XX
+dir
+
+
+
+add
+
+MSCGridBeta.csv-XX
+file
+
+
+
+add
+
+similaritiesTLC.txt
+file
+
+
+
+add
+
+zbl_ccMap512.osm
+file
+
+
+
+add
+
+MSC12-XX
+dir
+
+
+
+add
+
+MSC22-XX
+dir
+
+
+
+add
+
+MSC32-XX
+dir
+
+
+
+add
+
+unionsMLC.txt
+file
+
+
+
+add
+
+MSC42-XX
+dir
+
+
+
+add
+
+MSC06-XX
+dir
+
+
+
+add
+
+mdscale.txt
+file
+
+
+
+add
+
+MSC52-XX
+dir
+
+
+
+add
+
+MSC16-XX
+dir
+
+
+
+add
+
+MSC62-XX
+dir
+
+
+
+add
+
+MSC26-XX
+dir
+
+
+
+add
+
+zbl_ccMap.osm
+file
+
+
+
+add
+
+MSC46-XX
+dir
+
+
+
+add
+
+MSC82-XX
+dir
+
+
+
+add
+
+MSC92-XX
+dir
+
+
+
+add
+
+MSC76-XX
+dir
+
+
+
+add
+
+MSC86-XX
+dir
+
+
+
+add
+
+paperLocations.txt
+file
+
+
+
+add
+
+intersectionsMLC.txt
+file
+
+
+
+add
+
+myScript.m
+file
+
+
+
+add
+
+MSC01-XX
+dir
+
+
+
+add
+
+MSC11-XX
+dir
+
+
+
+add
+
+similaritiesMLC_scaled.txt
+file
+
+
+
+add
+
+MSC31-XX
+dir
+
+
+
+add
+
+MSC41-XX
+dir
+
+
+
+add
+
+MSC05-XX
+dir
+
+
+
+add
+
+MSC15-XX
+dir
+
+
+
+add
+
+MSC51-XX
+dir
+
+
+
+add
+
+MSC35-XX
+dir
+
+
+
+add
+
+MSC45-XX
+dir
+
+
+
+add
+
+MSC81-XX
+dir
+
+
+
+add
+
+MSC91-XX
+dir
+
+
+
+add
+
+MSC19-XX
+dir
+
+
+
+add
+
+MSC55-XX
+dir
+
+
+
+add
+
+hist.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+MSC65-XX
+dir
+
+
+
+add
+
+MSC39-XX
+dir
+
+
+
+add
+
+MSC49-XX
+dir
+
+
+
+add
+
+MSC85-XX
+dir
+
+
+
+add
+
+zbl_ccMapFilled.osm
+file
+
+
+
+add
+
+similaritiesMLC.txt
+file
+
+
+
+add
+
+cities.csv
+file
+
+
+
+add
+
+MergedPlotData.txt
+file
+
+
+
+add
+
+MSC00-XX
+dir
+
+
+
+add
+
+rename.sh
+file
+
+
+
+add
+
+zbl_ccMapNodes.osm
+file
+
+
+
+add
+
+MSC20-XX
+dir
+
+
+
+add
+
+MSC30-XX
+dir
+
+
+
+add
+
+MSC40-XX
+dir
+
+
+
+add
+
+MSC14-XX
+dir
+
+
+
+add
+
+MSC60-XX
+dir
+
+
+
+add
+
+MSC34-XX
+dir
+
+
+
+add
+
+MSC70-XX
+dir
+
+
+
+add
+
+MSC08-XX
+dir
+
+
+
+add
+
+MSC44-XX
+dir
+
+
+
+add
+
+MSC80-XX
+dir
+
+
+
+add
+
+MSC54-XX
+dir
+
+
+
+add
+
+MSC18-XX
+dir
+
+
+
+add
+
+MSC90-XX
+dir
+
+
+
+add
+
+MSC28-XX
+dir
+
+
+
+add
+
+MSC74-XX
+dir
+
+
+
+add
+
+MSC94-XX
+dir
+
+
+
+add
+
+unionsTLC.txt
+file
+
+
+
+add
+
+MSC58-XX
+dir
+
+
+
+add
+
+zbl_cc.zip
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+matlab_script.sh
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+MSC68-XX
+dir
+
+
+
+add
+
+MSC78-XX
+dir
+
+
+
+add
+
+zbl_cc.tar.gz
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

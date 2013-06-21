@@ -1,0 +1,588 @@
+10
+
+dir
+0
+https://svn.kwarc.info/repos/supervision/gr/2013/doerrie_jan_wilken/project/github/openmathmap/MapData/ZBMath/zbl
+https://svn.kwarc.info/repos/supervision
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+71dcaf0e-ca45-4353-9e8b-fbddb1840f3c
+
+MSC00
+dir
+
+
+
+add
+
+zblMap.osm
+file
+
+
+
+add
+
+MSC01
+dir
+
+
+
+add
+
+MSC03
+dir
+
+
+
+add
+
+MSC40
+dir
+
+
+
+add
+
+MSC41
+dir
+
+
+
+add
+
+MSC05
+dir
+
+
+
+add
+
+MSC06
+dir
+
+
+
+add
+
+MSC42
+dir
+
+
+
+add
+
+unions.txt
+file
+
+
+
+add
+
+MSC43
+dir
+
+
+
+add
+
+MSC08
+dir
+
+
+
+add
+
+MSC44
+dir
+
+
+
+add
+
+MSC80
+dir
+
+
+
+add
+
+MSC81
+dir
+
+
+
+add
+
+MSC45
+dir
+
+
+
+add
+
+MSC46
+dir
+
+
+
+add
+
+MSC82
+dir
+
+
+
+add
+
+MSC83
+dir
+
+
+
+add
+
+MSC47
+dir
+
+
+
+add
+
+MSC49
+dir
+
+
+
+add
+
+MSC85
+dir
+
+
+
+add
+
+MSC86
+dir
+
+
+
+add
+
+paperLocations.txt
+file
+
+
+
+add
+
+zblMap.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Ausschnitt.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+MSC11
+dir
+
+
+
+add
+
+MSC12
+dir
+
+
+
+add
+
+mdscale.txt
+file
+
+
+
+add
+
+PlotData.txt
+file
+
+
+
+add
+
+MSC13
+dir
+
+
+
+add
+
+MSC14
+dir
+
+
+
+add
+
+MSC51
+dir
+
+
+
+add
+
+MSC15
+dir
+
+
+
+add
+
+MSC52
+dir
+
+
+
+add
+
+MSC16
+dir
+
+
+
+add
+
+MSC53
+dir
+
+
+
+add
+
+MSC17
+dir
+
+
+
+add
+
+MSC18
+dir
+
+
+
+add
+
+MSC90
+dir
+
+
+
+add
+
+MSC54
+dir
+
+
+
+add
+
+MSC55
+dir
+
+
+
+add
+
+MSC19
+dir
+
+
+
+add
+
+MSC91
+dir
+
+
+
+add
+
+MSC92
+dir
+
+
+
+add
+
+MSC93
+dir
+
+
+
+add
+
+MSC57
+dir
+
+
+
+add
+
+MSC94
+dir
+
+
+
+add
+
+MSC58
+dir
+
+
+
+add
+
+MSC97
+dir
+
+
+
+add
+
+intersections.txt
+file
+
+
+
+add
+
+cities.csv
+file
+
+
+
+add
+
+MSC20
+dir
+
+
+
+add
+
+MSC22
+dir
+
+
+
+add
+
+MSC60
+dir
+
+
+
+add
+
+MSC62
+dir
+
+
+
+add
+
+MSC26
+dir
+
+
+
+add
+
+MSC28
+dir
+
+
+
+add
+
+MSC65
+dir
+
+
+
+add
+
+Map.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+MSC68
+dir
+
+
+
+add
+
+similarities.txt
+file
+
+
+
+add
+
+.~lock.cities.csv#
+file
+
+
+
+add
+
+MSC30
+dir
+
+
+
+add
+
+MSC31
+dir
+
+
+
+add
+
+MSC32
+dir
+
+
+
+add
+
+MSC33
+dir
+
+
+
+add
+
+MSC34
+dir
+
+
+
+add
+
+MSC70
+dir
+
+
+
+add
+
+MSC35
+dir
+
+
+
+add
+
+MSC37
+dir
+
+
+
+add
+
+MSC74
+dir
+
+
+
+add
+
+MSC39
+dir
+
+
+
+add
+
+MSCGrid.dat
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+MSC76
+dir
+
+
+
+add
+
+MSC78
+dir
+
+
+
+add
+

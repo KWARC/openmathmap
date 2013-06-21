@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='jdoerrie'>
+<node id='-2011824826' lat='0.6150000' lon='0.7180000' visible='true' version='1'>
+<tag k='name' v='MSC20A' />
+<tag k='description' v='Foundations' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824825' lat='0.3290000' lon='0.5810000' visible='true' version='1'>
+<tag k='name' v='MSC20B' />
+<tag k='description' v='Permutation groups' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824824' lat='0.3710000' lon='0.4520000' visible='true' version='1'>
+<tag k='name' v='MSC20C' />
+<tag k='description' v='Representation theory of groups' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824823' lat='0.3820000' lon='0.5410000' visible='true' version='1'>
+<tag k='name' v='MSC20D' />
+<tag k='description' v='Abstract finite groups' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824822' lat='0.4780000' lon='0.4470000' visible='true' version='1'>
+<tag k='name' v='MSC20E' />
+<tag k='description' v='Structure and classification of infinite or finite groups' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824821' lat='0.4390000' lon='0.4600000' visible='true' version='1'>
+<tag k='name' v='MSC20F' />
+<tag k='description' v='Special aspects of infinite or finite groups' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824820' lat='0.3630000' lon='0.3430000' visible='true' version='1'>
+<tag k='name' v='MSC20G' />
+<tag k='description' v='Linear algebraic groups and related topics' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824819' lat='0.3870000' lon='0.2600000' visible='true' version='1'>
+<tag k='name' v='MSC20H' />
+<tag k='description' v='Other groups of matrices' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824817' lat='0.5740000' lon='0.3300000' visible='true' version='1'>
+<tag k='name' v='MSC20J' />
+<tag k='description' v='Connections with homological algebra and category theory' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824816' lat='0.4710000' lon='0.7420000' visible='true' version='1'>
+<tag k='name' v='MSC20K' />
+<tag k='description' v='Abelian groups' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824815' lat='0.9580000' lon='0.3640000' visible='true' version='1'>
+<tag k='name' v='MSC20L' />
+<tag k='description' v='Groupoids (i.e. small categories in which all morphisms are isomorphisms)' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824814' lat='0.7320000' lon='0.5080000' visible='true' version='1'>
+<tag k='name' v='MSC20M' />
+<tag k='description' v='Semigroups' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824813' lat='0.7470000' lon='0.6350000' visible='true' version='1'>
+<tag k='name' v='MSC20N' />
+<tag k='description' v='Other generalizations of groups' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011824811' lat='0.0760000' lon='0.5420000' visible='true' version='1'>
+<tag k='name' v='MSC20P' />
+<tag k='description' v='Probabilistic methods in group theory' />
+<tag k='place' v='city' />
+</node>
+<node id='1675166236' lat='0.0000001' lon='0.0000000' visible='true' version='1'/>
+<node id='1675166237' lat='0.0000000' lon='0.0000001' visible='true' version='1'/>
+<node id='1675166238' lat='-0.0000001' lon='0.0000000' visible='true' version='1'/>
+<node id='1675166239' lat='0.0000000' lon='-0.0000001' visible='true' version='1'/>
+<node id='1676089757' lat='1.0000001' lon='0.0000000' visible='true' version='1'/>
+<node id='1676089758' lat='1.0000000' lon='0.0000001' visible='true' version='1'/>
+<node id='1676089759' lat='0.9999999' lon='0.0000000' visible='true' version='1'/>
+<node id='1676089760' lat='1.0000000' lon='-0.0000001' visible='true' version='1'/>
+<node id='1676090718' lat='1.0000001' lon='1.0000000' visible='true' version='1'/>
+<node id='1676090719' lat='1.0000000' lon='1.0000001' visible='true' version='1'/>
+<node id='1676090720' lat='0.9999999' lon='1.0000000' visible='true' version='1'/>
+<node id='1676090721' lat='1.0000000' lon='0.9999999' visible='true' version='1'/>
+<node id='1675167197' lat='0.0000001' lon='1.0000000' visible='true' version='1'/>
+<node id='1675167198' lat='0.0000000' lon='1.0000001' visible='true' version='1'/>
+<node id='1675167199' lat='-0.0000001' lon='1.0000000' visible='true' version='1'/>
+<node id='1675167200' lat='0.0000000' lon='0.9999999' visible='true' version='1'/>
+<way id='-469286007' action='modify' visible='true' version='1'>
+<nd ref='1675166236' />
+<nd ref='1675166239' />
+<nd ref='1675166238' />
+<nd ref='1675166237' />
+<nd ref='1675166236' />
+<tag k='name' v='boundingBox0' />
+<tag k='natural' v='coastline' />
+</way>
+<way id='-469286006' action='modify' visible='true' version='1'>
+<nd ref='1676089757' />
+<nd ref='1676089760' />
+<nd ref='1676089759' />
+<nd ref='1676089758' />
+<nd ref='1676089757' />
+<tag k='name' v='boundingBox1' />
+<tag k='natural' v='coastline' />
+</way>
+<way id='-469286005' action='modify' visible='true' version='1'>
+<nd ref='1676090718' />
+<nd ref='1676090721' />
+<nd ref='1676090720' />
+<nd ref='1676090719' />
+<nd ref='1676090718' />
+<tag k='name' v='boundingBox2' />
+<tag k='natural' v='coastline' />
+</way>
+<way id='-469286004' action='modify' visible='true' version='1'>
+<nd ref='1675167197' />
+<nd ref='1675167200' />
+<nd ref='1675167199' />
+<nd ref='1675167198' />
+<nd ref='1675167197' />
+<tag k='name' v='boundingBox3' />
+<tag k='natural' v='coastline' />
+</way>
+</osm>
