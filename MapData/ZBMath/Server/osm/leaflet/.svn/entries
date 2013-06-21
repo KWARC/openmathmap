@@ -1,70 +1,0 @@
-10
-
-dir
-0
-https://svn.kwarc.info/repos/supervision/gr/2013/doerrie_jan_wilken/project/github/openmathmap/MapData/ZBMath/Server/osm/leaflet
-https://svn.kwarc.info/repos/supervision
-add
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-71dcaf0e-ca45-4353-9e8b-fbddb1840f3c
-
-images
-dir
-
-
-
-add
-
-leaflet.js
-file
-
-
-
-add
-
-leaflet-src.js
-file
-
-
-
-add
-
-leaflet.ie.css
-file
-
-
-
-add
-
-leaflet.css
-file
-
-
-
-add
-
-leafletembed.js
-file
-
-
-
-add
-
