@@ -1,0 +1,107 @@
+body {
+  min-width: 550px;   
+  font-family: Arial;
+  font-size: 13;
+  margin: 0px;
+}
+
+h1 {
+  margin: 0;
+  padding: 10;
+  font-size: 30;
+}
+
+h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#container {
+  padding-left: 200px;   
+  padding-right: 150px;
+  width: 700px;
+  margin: 0px auto;
+}
+
+#container .column {
+  /*position: relative;*/
+  float: left;
+}
+#center {
+  width: 100%;
+}
+
+#left {
+  width: 280px;        
+  right: 280px;
+  text-align: justify;
+  padding: 10px;   
+  margin-left: -300px;
+}
+#right {
+  width: 400px;       
+  margin-right: -400px;  
+}
+#header {
+  background-color: rgb(28, 144, 153);
+	height: 100px;
+  padding: 0 50 0 50;
+  color: #d8dfea;
+  width: 100%;
+}
+#footer {
+  clear: both;
+}
+#clear {
+  clear:both;
+}
+/*** IE6 Fix ***/
+* html #left {
+  left: 150px;           /* RC width */
+}
+
+.search {
+  float: right;
+}
+
+.menu {
+  padding: 0 10 0 10;
+  float: left;
+  height: 26px;
+}
+
+.menu a {
+  color: inherit;
+  text-decoration: none;
+}
+.menu a:hover {
+  font-weight: bold;
+}
+
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.classes {
+  font-size: 11;
+}
+
+.Major {
+  display: none;
+}
+
+.Major:hover {
+  color: rgb(28, 144, 153);
+}
+
+.Second {
+  display: none;
+}
+
+.link:hover {
+  color: rgb(28, 144, 155);
+
+}
+

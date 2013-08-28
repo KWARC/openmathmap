@@ -1,0 +1,202 @@
+// Default rendering rules for Maperitive resembling that of OSM Mapnik
+// http://maperitive.net
+
+// Created by Igor Brejc
+// Released under the Creative Commons Attribution-ShareAlike 3.0 License (http://creativecommons.org/licenses/by-sa/3.0/)
+// Updates by Michael <quelbs_at_gmail.com>
+// Icons used: Map icons CC-0 from SJJB Management (http://www.sjjb.co.uk/mapicons)
+
+features
+	points
+		MSCInfo0 : MSCInfo=0
+		MSCInfo1 : MSCInfo=1
+
+	areas
+		RusinColor1 : RusinColor=1
+		RusinColor2 : RusinColor=2
+		RusinColor3 : RusinColor=3
+		RusinColor4 : RusinColor=4
+		RusinColor5 : RusinColor=5
+		RusinColor6 : RusinColor=6
+		RusinColor7 : RusinColor=7
+		RusinColor8 : RusinColor=8
+		RusinColor9 : RusinColor=9
+		RusinColor10 : RusinColor=10
+		RusinColor11 : RusinColor=11
+		RusinColor12 : RusinColor=12
+		RusinColor13 : RusinColor=13
+		RusinColor14 : RusinColor=14
+		RusinColor15 : RusinColor=15
+		RusinColor16 : RusinColor=16
+		RusinColor17 : RusinColor=17
+		MSCColor1 : MSCColor=1
+		MSCColor2 : MSCColor=2
+		MSCColor3 : MSCColor=3
+		MSCColor4 : MSCColor=4
+		MSCColor5 : MSCColor=5
+		MSCColor6 : MSCColor=6
+		MSCCity0 : MSCCity=0
+		water : natural=water OR waterway=riverbank OR landuse=reservoir OR landuse=basin or waterway=dock
+
+	lines
+		MSCBorder0 : MSCBorder=0
+		MSCBorder1 : MSCBorder=1
+
+
+properties
+	map-background-color	: #F1EEE8
+	map-background-opacity	: 1
+	map-sea-color : #B5D0D0
+	font-weight : bold
+	font-family : Verdana
+	text-max-width : 7
+	text-halo-width : 25%
+	text-halo-opacity : 0.75
+	text-align-horizontal : center
+	text-align-vertical : center
+	font-stretch : 0.9
+	map.rendering.lflp.min-buffer-space : 5
+	map.rendering.lflp.max-allowed-corner-angle : 40
+
+rules
+	target : $featuretype(point)
+		if : MSCInfo0
+			define
+				font-size : 14
+				min-zoom : 8
+				max-zoom : 12
+				text: name
+			draw : text
+
+			define
+				font-size : 14
+				min-zoom : 12
+				max-zoom : 16
+				text: name "\n" description
+			draw : text
+
+		if : MSCInfo1
+			define
+				font-size : 12
+				min-zoom : 13
+				max-zoom : 14
+				text: name
+			draw : text
+			define
+				font-size : 12
+				min-zoom : 14
+				max-zoom : 16
+				text: name "\n" description
+			draw : text
+
+	target : MSCCity0
+		define
+			fill-color : #ff4444
+			line-style : solid
+			line-width : 1
+		draw : fill
+
+	target : $featuretype(area)
+		define
+			line-style : none
+			line-width : 1
+		if : RusinColor1
+			define
+				fill-color : #cc00cc
+		elseif : RusinColor2
+			define
+				fill-color : #cc0099
+		elseif : RusinColor3
+			define
+				fill-color : #e6177e
+		elseif : RusinColor4
+			define
+				fill-color : #cd0000
+		elseif : RusinColor5
+			define
+				fill-color : #cdcd00
+		elseif : RusinColor6
+			define
+				fill-color : #cfe600
+		elseif : RusinColor7
+			define
+				fill-color : #88cc00
+		elseif : RusinColor8
+			define
+				fill-color : #44cc00
+		elseif : RusinColor9
+			define
+				fill-color : #00cc44
+		elseif : RusinColor10
+			define
+				fill-color : #00cc88
+		elseif : RusinColor11
+			define
+				fill-color : #0088cc
+		elseif : RusinColor12
+			define
+				fill-color : #0044cc
+		elseif : RusinColor13
+			define
+				fill-color : #8800cc
+		elseif : RusinColor14
+			define
+				fill-color : #cc00cc
+		elseif : RusinColor15
+			define
+				fill-color : #cd8900
+		elseif : RusinColor16
+			define
+				fill-color : #e6b800
+		elseif : RusinColor17
+			define
+				fill-color : #a3cccc
+		elseif : MSCColor1
+			define
+				fill-color : #006837
+		elseif : MSCColor2
+			define
+				fill-color : #31a354
+		elseif : MSCColor3
+			define
+				fill-color : #78c679
+		elseif : MSCColor4
+			define
+				fill-color : #addd8e
+		elseif : MSCColor5
+			define
+				fill-color : #d9f0a3
+		elseif : MSCColor6
+			define
+				fill-color : #ffffcc
+		elseif : water
+			define
+				fill-color : #B5D0D0
+		else
+			stop
+		draw : fill
+
+
+	target : $featuretype(line)
+		if : MSCBorder0
+			define
+				line-color : #000000
+				line-width : 2
+				line-opacity : 0.8
+			draw : line
+
+		if : MSCBorder1
+			define
+				line-color : #888888
+				line-width : 1
+				line-opacity : 0.5
+				line-style : dash
+				min-zoom : 11
+			draw : line
+
+
+	target: coastline
+		define
+			line-color : #B5D0D0
+			line-width : 2
+		draw : line

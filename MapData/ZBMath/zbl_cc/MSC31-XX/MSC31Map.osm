@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='jdoerrie'>
+<node id='-2011823834' lat='0.3980000' lon='0.9490000' visible='true' version='1'>
+<tag k='name' v='MSC31A' />
+<tag k='description' v='Two-dimensional theory' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011823833' lat='0.2720000' lon='0.6450000' visible='true' version='1'>
+<tag k='name' v='MSC31B' />
+<tag k='description' v='Higher-dimensional theory' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011823832' lat='0.2750000' lon='0.3430000' visible='true' version='1'>
+<tag k='name' v='MSC31C' />
+<tag k='description' v='Other generalizations' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011823831' lat='0.3710000' lon='0.0570000' visible='true' version='1'>
+<tag k='name' v='MSC31D' />
+<tag k='description' v='Axiomatic potential theory' />
+<tag k='place' v='city' />
+</node>
+<node id='-2011823830' lat='1.1570000' lon='0.4790000' visible='true' version='1'>
+<tag k='name' v='MSC31E' />
+<tag k='description' v='Potential theory on metric spaces' />
+<tag k='place' v='city' />
+</node>
+<node id='1675166236' lat='0.0000001' lon='0.0000000' visible='true' version='1'/>
+<node id='1675166237' lat='0.0000000' lon='0.0000001' visible='true' version='1'/>
+<node id='1675166238' lat='-0.0000001' lon='0.0000000' visible='true' version='1'/>
+<node id='1675166239' lat='0.0000000' lon='-0.0000001' visible='true' version='1'/>
+<node id='1676089757' lat='1.0000001' lon='0.0000000' visible='true' version='1'/>
+<node id='1676089758' lat='1.0000000' lon='0.0000001' visible='true' version='1'/>
+<node id='1676089759' lat='0.9999999' lon='0.0000000' visible='true' version='1'/>
+<node id='1676089760' lat='1.0000000' lon='-0.0000001' visible='true' version='1'/>
+<node id='1676090718' lat='1.0000001' lon='1.0000000' visible='true' version='1'/>
+<node id='1676090719' lat='1.0000000' lon='1.0000001' visible='true' version='1'/>
+<node id='1676090720' lat='0.9999999' lon='1.0000000' visible='true' version='1'/>
+<node id='1676090721' lat='1.0000000' lon='0.9999999' visible='true' version='1'/>
+<node id='1675167197' lat='0.0000001' lon='1.0000000' visible='true' version='1'/>
+<node id='1675167198' lat='0.0000000' lon='1.0000001' visible='true' version='1'/>
+<node id='1675167199' lat='-0.0000001' lon='1.0000000' visible='true' version='1'/>
+<node id='1675167200' lat='0.0000000' lon='0.9999999' visible='true' version='1'/>
+<way id='-469286007' action='modify' visible='true' version='1'>
+<nd ref='1675166236' />
+<nd ref='1675166239' />
+<nd ref='1675166238' />
+<nd ref='1675166237' />
+<nd ref='1675166236' />
+<tag k='name' v='boundingBox0' />
+<tag k='natural' v='coastline' />
+</way>
+<way id='-469286006' action='modify' visible='true' version='1'>
+<nd ref='1676089757' />
+<nd ref='1676089760' />
+<nd ref='1676089759' />
+<nd ref='1676089758' />
+<nd ref='1676089757' />
+<tag k='name' v='boundingBox1' />
+<tag k='natural' v='coastline' />
+</way>
+<way id='-469286005' action='modify' visible='true' version='1'>
+<nd ref='1676090718' />
+<nd ref='1676090721' />
+<nd ref='1676090720' />
+<nd ref='1676090719' />
+<nd ref='1676090718' />
+<tag k='name' v='boundingBox2' />
+<tag k='natural' v='coastline' />
+</way>
+<way id='-469286004' action='modify' visible='true' version='1'>
+<nd ref='1675167197' />
+<nd ref='1675167200' />
+<nd ref='1675167199' />
+<nd ref='1675167198' />
+<nd ref='1675167197' />
+<tag k='name' v='boundingBox3' />
+<tag k='natural' v='coastline' />
+</way>
+</osm>
