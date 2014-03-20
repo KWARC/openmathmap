@@ -247,7 +247,7 @@ public class GenerateOSM {
  		 * Needs to be adjusted for different datasets.
  		 * TODO: Figure out on what exactly this depends
  		 */
-     	double factor = 4.5;
+     	double factor = 2.5;
         return Math.sqrt(1.0e6 / (topLevelMSCs.size() * Math.pow(Math.PI, 3)) * factor * msc.getArea() / areaMax);
     }
 
