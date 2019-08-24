@@ -17,6 +17,8 @@
  * along with OpenMathMap. If not, see <http://www.gnu.org/licenses/>.
  */
 
+package org.mathmap.mapgeneration;
+
 import java.io.*;
 import java.util.*;
 
@@ -983,18 +985,29 @@ public class GenerateOSM {
     // }
 
     public static void main(String[] args) throws IOException {
-        File dataDir = new File("/home/jdoerrie/Desktop/ZBMath/");
+        if(args.length != 2) {
+            System.out.println("Usage: MapGeneration.jar <DataDir> <DescriptionFile>");
+            System.exit(-1);
+        }
+
+        File dataDir = new File(args[0]);
+        File descriptionFile = new File(args[1]);
+
         if (dataDir.listFiles() != null) {
             for (File file: dataDir.listFiles()) {
+                // TODO: To fully revive this, we need to figure out what goes wrong here
+                // and potentially re-implement / fix the generation code
                 if (file.isDirectory() && file.getName().startsWith("cuml1986")) {
                     File plotData = new File(file + "/PlotData.txt");
                     if (plotData.exists()) {
                         File cityData = new File(file + "/cities.csv");
                         cityData = null;
                         GenerateOSM osm = new GenerateOSM(plotData, cityData,
-                                new File("project/myData/Desc_msc2010-final.txt"), 1024);
+                            descriptionFile, 1024);
                         // System.out.println(osm.getMSC(0.5, 0.5));
-                        osm.exportToOSM(new File(file + "/" + file.getName() + "Map.osm"));
+                        File output = new File(file + "/" + file.getName() + "Map.osm");
+                        osm.exportToOSM(output);
+                        // System.out.println(output.getPath());
 
 //                        osm.dumpLabels(new File(file + "/" + file.getName() + "Labels.osm"));
 //                        osm.exportMSCGrid(new File(file + "/MSCGrid1.csv"), 1);

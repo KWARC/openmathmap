@@ -17,6 +17,8 @@
  * along with OpenMathMap. If not, see <http://www.gnu.org/licenses/>.
  */
 
+package org.mathmap.mapgeneration;
+
 /**
  * Helper class to represent Coordinates in 2D. It provides overridden equals, hashCode and toString methods,
  * in order to use them in sets and to debug them more easily.

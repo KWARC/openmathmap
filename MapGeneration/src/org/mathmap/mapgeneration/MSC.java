@@ -17,6 +17,8 @@
  * along with OpenMathMap. If not, see <http://www.gnu.org/licenses/>.
  */
 
+package org.mathmap.mapgeneration;
+
 /**
  * A class to represent a MSC class. It consists of a name, a description,
  * x and y coordinates and area. Also it saves the level of the MSC, where
