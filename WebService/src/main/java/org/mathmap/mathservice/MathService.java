@@ -16,6 +16,8 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with OpenMathMap. If not, see <http://www.gnu.org/licenses/>.
  */
+package mathservice;
+
 
 import java.io.*;
 import java.util.*;
@@ -29,8 +31,9 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
-import com.sun.jersey.api.json.JSONWithPadding;
+import org.glassfish.jersey.server.JSONP;
 
 /**
  * This class provides the required methods and APIs for the webservice.
@@ -156,13 +159,13 @@ public class MathService {
 	}
 
 	@GET
-	@Path("/mscquery")
+	@JSONP(queryParam="callback")
 	@Produces({"application/javascript"})
-	public JSONWithPadding getMSCByLocationJSONP(@QueryParam("lat")  double lat,
+	@Path("/mscquery")
+	public MSC getMSCByLocationJSONP(@QueryParam("lat")  double lat,
  						               			 @QueryParam("long") double lng,
- 						               			 @QueryParam("zoom")  @DefaultValue("9") int zoom,
- 						               			 @QueryParam("callback") @DefaultValue("callback")
-			                           			 String callback) {
+ 						               			 @QueryParam("zoom")  @DefaultValue("9") int zoom
+ 						               			 ) {
 		int level;
 		if (zoom < 13) {
 			level = 0;
@@ -170,17 +173,16 @@ public class MathService {
 			level = 1;
 		}
 
-		return new JSONWithPadding(new GenericEntity<MSC>(getMSCByLocation(lat, lng, level)) {}, callback);
+		return getMSCByLocation(lat, lng, level);
 	}
 
 
 	@GET
-	@Path("/msclookup")
+	@JSONP(queryParam="callback")
 	@Produces({"application/javascript"})
-	public JSONWithPadding getMSCByStringJSONP(@QueryParam("search")  String str,
-			                           		   @QueryParam("callback") @DefaultValue("callback")
-			                                   String callback) {
+	@Path("/msclookup")
+	public MSC getMSCByStringJSONP(@QueryParam("search")  String str) {
 
-		return new JSONWithPadding(new GenericEntity<MSC>(getMSCByString(str)){}, callback);
+		return getMSCByString(str);
 	}
 }

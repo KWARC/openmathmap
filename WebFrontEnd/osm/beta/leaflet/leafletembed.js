@@ -1,3 +1,5 @@
+var mathservice = 'http://localhost:8080/MathService/'
+
 var map;
 var ajaxRequest;
 var plotlist;
@@ -36,7 +38,7 @@ function initmap() {
 	z = map.getZoom();
         latlng = e.latlng;
         $.ajax({
-   	    url: "http://map.mathweb.org:8080/MathService/mscquery/?lat=" + x + "&long=" + y + "&zoom=" + z,
+   	    url: mathservice + "mscquery/?lat=" + x + "&long=" + y + "&zoom=" + z,
 	    headers: { 
 		jsonp: 'application/javascript'
 	    },
