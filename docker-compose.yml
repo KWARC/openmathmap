@@ -1,0 +1,10 @@
+version: '3'
+services:
+  frontend:
+    build: ./WebFrontEnd
+    ports:
+      - "8080:80"
+    depends_on:
+      - mathservice
+  mathservice:
+    build: ./WebService

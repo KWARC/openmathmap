@@ -17,7 +17,7 @@
  * along with OpenMathMap. If not, see <http://www.gnu.org/licenses/>.
  */
 
-var mathservice = 'http://localhost:8080/MathService/'
+var mathservice = '/MathService/'
 
 var map;
 var ajaxRequest;

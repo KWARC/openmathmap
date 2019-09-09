@@ -1,4 +1,4 @@
-var mathservice = 'http://localhost:8080/MathService/'
+var mathservice = '/MathService/'
 
 var map;
 var ajaxRequest;
