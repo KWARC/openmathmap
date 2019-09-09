@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2013 KWARC Group <kwarc.info>
+ * Copyright (c) 2013-19 KWARC Group <kwarc.info>
  *
  * This file is part of OpenMathMap.
  *
